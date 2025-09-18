@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Email Test Form</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; }
+        input { display: block; margin-bottom: 10px; padding: 5px; }
+    </style>
+</head>
+<body>
+
+    <h1>REGISTER!!</h1>
+
+    <form action="mail.php" method="POST">
+        
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <input type="submit" value="Register user">
+
+    </form>
+
+</body>
+</html>
